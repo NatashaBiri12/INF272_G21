@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "ViewProfileEmployee";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+<br />
+<center>
+    <h1>View Employee Profile</h1>
+
+    <br /><br />
+    <p><label>Full name:</label> <br /></p>
+    <p><label>Username:</label> <br /></p>
+    <p><label>Email:</label> <br /> <label>Cell Number:</label> <br /> </p>
+    <p><label>Job Skills:</label> <br /><input type="checkbox" name="Gardening" value="Gardening" /><label> Gardening</label><input type="checkbox" name="TreeFelling" value="Tree Felling" /><label> Tree Felling</label><input type="checkbox" name="LapaRepairs" value="Lapa Repairs" /><label> Lapa Repairs</label><input type="checkbox" name="Construction" value="Construction" /><label> Construction</label><input type="checkbox" name="DomesticWork" value="Domestic Work" /><label> Domestic Work</label></p>
+    <p><label>Transport Mode:</label> </p>
+    <p><label>Wage p/h:</label> <br /></p>
+    <p><label>Experience in Years:</label> <br /> </p>
+    <p><label>Province:</label>
+    <p><label>City/Town:</label> <br /></p>
+    <p><label>Gender:</label> </p>
+    <input type="button" id="btnUpdate" value="Update/Edit" onclick="location.href='@Url.Action("Update", "Main")'" /> <input type="button" id="btnDelete" value="Delete" onclick="location.href='@Url.Action("Delete", "Main")'" />
+
+</center>

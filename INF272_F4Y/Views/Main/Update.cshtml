@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+<input type="button" id="btnLogout" value="Logout" onclick="location.href='@Url.Action("Home", "Main")'" />
+<br />
+<center>
+    <h1>Update Employee</h1>
+
+    <br /><br />
+    <p><label>Full name:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+    <p><label>Username:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+    <p><label>Email:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+    <p><label>Cell Number:</label> <br /> <input type="text" id="txtCell" name="CellNumber" value=" " /></p>
+    <p><label>Upload Picture:</label> <br /><input type="image" value=" " /><input type="button" id="btnUpload" value="Upload" /></p>
+    <p><label>Password:</label> <br /><input type="text" id="txtPassword" name="Password" value=" " /></p>
+    <p><label>Confirm Password:</label> <br /> <input type="text" id="txtConfirmPassword" name="ConfirmPassword" value=" " /></p>
+    <p><label>Gender:</label> <select class="form-control" id="Gender" name="Gender"> <option>Male</option> <option>Female</option> <option>Other</option></select> </p>
+    <p><label>Job Skills:</label> <br /><input type="checkbox" name="Gardening" value="Gardening" /><label> Gardening</label><input type="checkbox" name="TreeFelling" value="Tree Felling" /><label> Tree Felling</label><input type="checkbox" name="LapaRepairs" value="Lapa Repairs" /><label> Lapa Repairs</label><input type="checkbox" name="Construction" value="Construction" /><label> Construction</label><input type="checkbox" name="DomesticWork" value="Domestic Work" /><label> Domestic Work</label></p>
+    <p><label>Transport Mode:</label> <select class="form-control" id="Transport" name="Transport"> <option>Bus</option> <option>Train</option> <option>Walk</option> <option>Car</option></select> </p>
+    <p><label>Wage p/h:</label> <br /> <input type="text" id="txtWage" name="Wage" value=" " /></p>
+    <p><label>Experience in Years:</label> <br /> <input type="text" id="txtExperience" name="Experience" value=" " /></p>
+    <p><label>Province:</label> <select class="form-control" id="Province" name="Province"> <option>Gauteng</option> <option>Limpopo</option> <option>Mpumalanga</option> <option>North West</option> <option>Free State</option> <option>Kwazulu Natal</option><option>Eastern Cape</option> <option>Western Cape</option> <option>Northern Cape</option></select> </p>
+    <p><label>City/Town:</label> <br /> <input type="text" id="txtCity" name="City" value=" " /></p>
+    <p><label>Gender:</label> <select class="form-control" id="Gender" name="Gender"> <option>Male</option> <option>Female</option> </select> </p>
+    <input type="button" id="btnUpdate" value="Update Profile" onclick="location.href='@Url.Action("ViewProfileEmployee", "Main")'" /> <input type="button" id="btnDelete" value="Delete Profile" onclick="location.href='@Url.Action("Delete", "Main")'" />
+
+</center>
+

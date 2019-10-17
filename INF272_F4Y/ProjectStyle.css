@@ -1,0 +1,35 @@
+﻿body {
+    background-image: url("https://us.123rf.com/450wm/annaleni/annaleni1604/annaleni160400006/54764630-thin-line-dark-blue-construction-seamless-pattern-website-design-and-tile-background-in-trendy-moder.jpg?ver=6" );
+}
+
+h1 {
+    font-family: Trebuchet MS;
+    font-size:45px;
+    background-color:tomato;
+}
+
+h2 {
+    font-family: Trebuchet MS;
+    font-size: 25px;
+}
+
+h3 {
+    background-color:tomato;
+    font-family: Trebuchet MS;
+    font-size: 22px;
+}
+
+
+p {
+    font-family: Trebuchet MS;
+    font-size: 15px;
+}
+label {
+    font: bold;
+    background-color: tomato;
+}
+
+button{
+    font-family: 'Trebuchet MS';
+    font:bold;
+}

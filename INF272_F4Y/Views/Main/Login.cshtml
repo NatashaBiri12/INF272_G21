@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+<br />
+<center>
+    <h1>Employee Login</h1>
+    <br /><br /><br />
+    <p><label>Username:</label> <input type="text" id="txtEmail" name="Email" value=" " /></p>
+    <p><label>Password:</label> <input type="text" id="txtPassword" name="Password" value=" " /></p>
+    <br />
+    <input type="button" id="btnLogin" value="Login" onclick="location.href='@Url.Action("ViewProfileEmployee", "Main")'" />
+</center>

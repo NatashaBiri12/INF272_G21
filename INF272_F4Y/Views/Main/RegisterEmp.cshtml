@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "RegisterEmp";
+}
+
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<body>
+    <left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+    <br />
+    <center>
+        <h1>Register Employer</h1>
+
+        <br /><br />
+        <p><label>Full name:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+        <p><label>Username:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+        <p><label>Email:</label> <br /><input type="text" id="txtName" name="Name" value=" " /></p>
+        <p><label>Cell Number:</label> <br /> <input type="text" id="txtCell" name="CellNumber" value=" " /></p>
+        <p><label>Upload Picture:</label> <br /><input type="image" value=" " /><input type="button" id="btnUpload" value="Upload" /></p>
+        <p><label>Password:</label> <br /><input type="text" id="txtPassword" name="Password" value=" " /></p>
+        <p><label>Gender:</label> <select class="form-control" id="Gender" name="Gender"> <option>Male</option> <option>Female</option> <option>Other</option></select> </p>
+        <p><label>Confirm Password:</label> <br /> <input type="text" id="txtConfirmPassword" name="ConfirmPassword" value=" " /></p>
+        <p><label>Province:</label> <select class="form-control" id="Province" name="Province"> <option>Gauteng</option> <option>Limpopo</option> <option>Mpumalanga</option> <option>North West</option> <option>Free State</option> <option>Kwazulu Natal</option><option>Eastern Cape</option> <option>Western Cape</option> <option>Northern Cape</option></select> </p>
+        <p><label>City/Town:</label> <br /> <input type="text" id="txtCity" name="City" value=" " /></p>
+        <p><label>Gender:</label> <select class="form-control" id="Gender" name="Gender"> <option>Male</option> <option>Female</option> </select> </p>
+        <input type="button" id="btnViewProfile" value="Register" onclick="location.href='@Url.Action("LoginEmp", "Main")'" />
+
+    </center>
+</body>
+

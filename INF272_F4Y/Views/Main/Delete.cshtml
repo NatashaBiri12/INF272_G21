@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+<input type="button" id="btnLogout" value="Logout" onclick="location.href='@Url.Action("Home", "Main")'" />
+<center>
+    <h1>Delete Profile</h1>
+    <label>Are you sure you want to delete your profile?</label>
+    <br />
+    <p>
+        <input type="button" id="btnYes" value="Yes" onclick="location.href='@Url.Action("Home", "Main")'" /> <input type="button" id="btnNo" value="No" onclick="location.href='@Url.Action("ViewProfileEmployee", "Main")'" />
+    </p>
+
+</center>

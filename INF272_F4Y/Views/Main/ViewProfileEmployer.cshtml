@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "ViewProfileEmployer";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<left><h2><input type="button" id="btnHome" value="Freelance4You" onclick="location.href='@Url.Action("Home", "Main")'" /></h2></left>
+<br />
+<center>
+    <h1>View Employer Profile</h1>
+
+    <br /><br />
+    <p><label>Full name:</label> <br /></p>
+    <p><label>Username:</label> <br /></p>
+    <p><label>Email:</label> <br /> <label>Cell Number:</label> <br /> </p>
+    <p><label>Province:</label>
+    <p><label>City/Town:</label> <br /></p>
+    <p><label>Gender:</label> </p>
+    <input type="button" id="btnSearch" value="Search for Employee" onclick="location.href='@Url.Action("Search", "Main")'" />
+    <input type="button" id="btnUpdate" value="Update/Edit" onclick="location.href='@Url.Action("UpdateEmp", "Main")'" /> <input type="button" id="btnDelete" value="Delete" onclick="location.href='@Url.Action("Delete", "Main")'" />
+</center>

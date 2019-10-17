@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+<link href="~/ProjectStyle.css" rel="stylesheet" />
+<center>
+    <h1>Freelance4You</h1>
+    <label>Connecting you to YOUR brighter future.</label>
+    <br /> <br /> <br /> <br /> <br />
+    <p>
+        <label>
+            Freelance4You is an app that allows individuals with informal/labour oriented jobs<br />
+            with little professional experience to connect with potential clients.<br />
+            What do you wish to do?
+        </label>
+    </p>
+    <br />
+
+    <div style="border: 1.5px solid #ff6347;">
+        <h3>Employee</h3>
+        <input type="button" id="btnLogin" value="Login" onclick="location.href='@Url.Action("Login", "Main")'" /> <input type="button" id="btnRegister" value="Register" onclick="location.href='@Url.Action("Register", "Main")'" />
+        <br />
+    </div>
+
+    <br />
+
+    <div style="border: 1.5px solid #ff6347;">
+        <h3>Employer</h3>
+        <input type="button" id="btnLogin" value="Login" onclick="location.href='@Url.Action("LoginEmp", "Main")'" /> <input type="button" id="btnRegister" value="Register" onclick="location.href='@Url.Action("RegisterEmp", "Main")'" />
+        <br />
+    </div>
+
+    <input type="button" id="btnReport1" value="Download Report 1" />
+    <input type="button" id="btnReport2" value="Download Report 2" />
+
+</center>
